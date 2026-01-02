@@ -36,11 +36,11 @@ Optimizer: Adam / AdamW
 
 Framework: TensorFlow & Keras
 
-##### This approach leverages pretrained visual features while keeping training efficient and stable.
+#### This approach leverages pretrained visual features while keeping training efficient and stable.
 
 ## Results & Evaluation
 
-##### Model performance was evaluated using a confusion matrix on the validation set.
+#### Model performance was evaluated using a confusion matrix on the validation set.
 
 ### Key results:
 
@@ -80,4 +80,5 @@ Conversion to a Streamlit or FastAPI inference app
 
 ## Author:
 Azumi Muhammed
+
 Junior Data Scientist

@@ -1,0 +1,11 @@
+{
+  "python.defaultInterpreterPath": "/Users/azumimuhammed/miniconda3/envs/computer_vision_project/bin/python",
+  "python.analysis.diagnosticMode": "workspace",
+  "python.analysis.indexing": true,
+
+  "python.analysis.diagnosticSeverityOverrides": {
+    "reportMissingModuleSource": "none",
+    "reportMissingImports": "none"
+  }
+}
+

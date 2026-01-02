@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+
+# Conda
+.conda/
+conda-meta/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data & models (often large)
+data/
+models/
+
+# If you DO want to version small model files, remove models/ above and ignore selectively:
+# models/*.h5

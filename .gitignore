@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Conda / virtual envs
+.env
+.venv
+env/
+.conda/
+
+# Data (do NOT push datasets)
+data/images/
+data/processed/
+
+# Model weights
+models/
+
+# OS
+.DS_Store

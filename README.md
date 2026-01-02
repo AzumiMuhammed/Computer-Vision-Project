@@ -81,4 +81,4 @@ Conversion to a Streamlit or FastAPI inference app
 ## Author:
 Azumi Muhammed
 
-Junior Data Scientist
+Data Scientist | Applied AI & LLM Engineer

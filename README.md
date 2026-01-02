@@ -1,18 +1,18 @@
-Sign Language Finger Alphabet Classification using Transfer Learning
+# Sign Language Finger Alphabet Classification using Transfer Learning
 
-Overview
+## Overview
 
 This project implements a computer vision classification pipeline using transfer learning with EfficientNetB0 to recognize finger alphabet images. The model is trained and evaluated using TensorFlow/Keras and demonstrates strong generalization performance with minimal class confusion.
 
 The workflow covers data loading, preprocessing, dataset serialization, model training, and evaluation, all implemented in a reproducible Jupyter notebook.
 
-Dataset
+## Dataset
 
 Classes: Sign Language Finger datasets -> A, B, C
 
 Structure: Images are organized into class-specific directories
 
-Pipeline:
+## Pipeline:
 
 Images are loaded using image_dataset_from_directory
 
@@ -22,7 +22,7 @@ Datasets are saved as tf.data.Dataset objects for faster reuse
 
 Raw image data is excluded from the repository to keep it lightweight and reproducible.
 
-Model Architecture
+## Model Architecture
 
 Backbone: EfficientNetB0 (ImageNet pretrained)
 
@@ -36,13 +36,13 @@ Optimizer: Adam / AdamW
 
 Framework: TensorFlow & Keras
 
-This approach leverages pretrained visual features while keeping training efficient and stable.
+##### This approach leverages pretrained visual features while keeping training efficient and stable.
 
-Results & Evaluation
+## Results & Evaluation
 
-Model performance was evaluated using a confusion matrix on the validation set.
+##### Model performance was evaluated using a confusion matrix on the validation set.
 
-Key results:
+### Key results:
 
 Validation Accuracy: 97.8%
 
@@ -54,7 +54,7 @@ Confusion Matrix Analysis:
 The confusion matrix indicates strong class separability and robust feature extraction. All errors are systematic rather than random, suggesting visual similarity between classes rather than model instability.
 
 
-Key Technical Highlights:
+## Key Technical Highlights:
 
 Robust path handling using pathlib for reproducibility
 
@@ -67,7 +67,7 @@ Clean separation of raw data, processed datasets, and experiments
 Notebook designed to run end-to-end without manual intervention
 
 
-Future Improvements:
+## Future Improvements:
 
 Fine-tuning upper EfficientNet layers
 
@@ -78,5 +78,6 @@ Support for additional alphabet classes
 Conversion to a Streamlit or FastAPI inference app
 
 
-Author: Azumi Muhammed
+## Author:
+Azumi Muhammed
 Junior Data Scientist

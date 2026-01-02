@@ -15,6 +15,3 @@ Thumbs.db
 # Data & models (often large)
 data/
 models/
-
-# If you DO want to version small model files, remove models/ above and ignore selectively:
-# models/*.h5
